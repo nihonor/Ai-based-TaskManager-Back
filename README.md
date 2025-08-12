@@ -13,7 +13,7 @@ A comprehensive Node.js backend for the AI-powered task management system with g
 - **File Management**: Document uploads and management
 - **Team Collaboration**: Team and department management
 - **Pomodoro Timer**: Focus time tracking
-- **Search & Export**: Advanced search and data export capabilities
+- **Search & Export**: Advanced search and data export capabilitie
 
 ## 🛠️ Tech Stack
 
