@@ -59,7 +59,7 @@ app.use((req, res, next) => {
 });
 
 // MongoDB connection
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/ai-task-manager').then(() => console.log('MongoDB connected')).catch(err => console.error('MongoDB error:', err));
+mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://niyitanganihonor:GA7cMGDAySuhuk5W@cluster0.wskc7ct.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0').then(() => console.log('MongoDB connected')).catch(err => console.error('MongoDB error:', err));
 
 // WebSocket middleware
 app.use((req, res, next) => {
